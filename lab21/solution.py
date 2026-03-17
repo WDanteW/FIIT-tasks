@@ -41,7 +41,7 @@ def main():
 
     size = os.path.getsize(file)
 
-    # FIX имени файла
+    # Имя файла
     filename = os.path.basename(file)
     output = f"result_{filename}"
 

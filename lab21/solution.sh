@@ -51,7 +51,7 @@ fi
 # Размер файла
 size=$(stat -c%s "$file")
 
-# Имя выходного файла (FIX!)
+# Имя выходного файла
 filename=$(basename "$file")
 output="result_$filename"
 
